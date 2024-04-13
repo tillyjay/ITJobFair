@@ -13,7 +13,7 @@
  * This will limit the width of all uploaded images and embeds.
  */
 if ( ! isset( $content_width ) ) {
-	$content_width = 800; /* pixels */
+	$content_width = 1000; /* pixels */
 }
 
 
@@ -43,9 +43,9 @@ if ( ! function_exists( 'itjobfair_setup' ) ) :
 		 * Add support for two custom navigation menus.
 		 */
 		register_nav_menus( array(
-			'primary'   => __( 'Primary Menu', 'itjobfair
+			'Primary Menu'   => __( 'Primary Menu', 'itjobfair
         ' ),
-			'secondary' => __( 'Secondary Menu', 'itjobfair
+			'Secondary Menu' => __( 'Secondary Menu', 'itjobfair
         ' ),
 		) );
 
@@ -57,6 +57,9 @@ if ( ! function_exists( 'itjobfair_setup' ) ) :
 	}
 endif; // itjobfair_setup
 add_action( 'after_setup_theme', 'itjobfair_setup' );
+
+
+
 
 // Add styles and scripts
 function itjobfair_enqueue_styles() {
@@ -73,11 +76,12 @@ add_action( 'wp_enqueue_scripts', 'itjobfair_enqueue_styles' );
 // Register and enqueue custom stylesheet
 function custom_theme_enqueue_styles() {
     // Register the stylesheet
-    wp_register_style( 'styles', get_stylesheet_directory_uri() . '/styles.css', array(), '1.0', 'all' );
+    wp_register_style( 'style', get_stylesheet_directory_uri() . '/assets/css/style.css', array(), '1.0', 'all' );
     
     // Enqueue the registered stylesheet
-    wp_enqueue_style( 'styles' );
+    wp_enqueue_style( 'style' );
 }
 add_action( 'wp_enqueue_scripts', 'custom_theme_enqueue_styles' );
+
 
 ?>

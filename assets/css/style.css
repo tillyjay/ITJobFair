@@ -1,0 +1,97 @@
+/*
+Theme Name: IT Job Fair
+Theme URI: http://localhost:8080
+Author: Tilly Campbell - W0424641
+Description: This is a theme for NSCC webd3027 for the IT Job Fair site.
+Version: 1.0
+*/
+
+/* Theme styles go here */
+
+/* Global Styles */
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+main {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featuredImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-content {
+  width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1.title {
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+#orangeLine1  {
+  background-color: #e2792d;
+  color: #e2792d;
+  height: 4px;
+  width: 60px;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+
+/* Header Styles */
+header .navbar-brand img {
+  max-height: 70px;
+  width: auto;
+}
+
+header .navbar-nav {
+  margin-left: 30px;
+}
+
+header .nav-link {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: 700;
+  color: black;
+}
+
+header {
+  border-bottom: 1px solid black;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #e2792d;
+}
+
+footer .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+footer .secondary {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+footer img {
+  width: 60px;
+  height: auto;
+  margin-left: 40px;
+}
+
+/* Page Styles */
