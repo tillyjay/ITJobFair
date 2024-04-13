@@ -29,7 +29,7 @@ main {
 }
 
 .page-content {
-  width: 95%;
+  width: 97%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -40,14 +40,21 @@ h1.title {
   font-size: 2.2rem;
 }
 
-#orangeLine1  {
-  background-color: #e2792d;
-  color: #e2792d;
-  height: 4px;
-  width: 60px;
-  border-radius: 3px;
-  margin-top: 30px;
+h2 {
+    font-weight: 400;
+    font-size: 2rem;
 }
+
+h3 {
+    font-size: 1.6rem;
+}
+
+p {
+    line-height: 2;
+    color: #454d55;
+    font-size: 1.1rem;
+}
+
 
 /* Header Styles */
 header .navbar-brand img {
@@ -94,4 +101,134 @@ footer img {
   margin-left: 40px;
 }
 
-/* Page Styles */
+/* ----------------  Page Styles -------------------- */
+/* Home Page */
+.orangeLine1  {
+    background-color: #e2792d;
+    color: #e2792d;
+    height: 4px;
+    width: 60px;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+#para1 {
+    margin-top: 2rem;
+}
+
+#location, #sponsors {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#sponsorsRow1, #sponsorsRow2  {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+
+#dns, #melissa {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid #e2792d;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 5px 12px -3px rgba(0,0,0,0.98);
+}
+
+#dns {
+    margin-right: .5rem;
+}
+
+#melissa {
+    margin-left: .5rem;
+}
+
+#maplewave, #verb {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid #e2792d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 5px 12px -3px rgba(0,0,0,0.98);
+}
+
+#maplewave {
+    margin-right: .5rem;
+}
+
+#verb {
+    margin-left: .5rem;
+}
+
+h4#participating {
+    margin-top: 3.5rem;
+}
+
+h4#totalStudents {
+    margin: 2rem 0rem;
+
+}
+
+#studentsPara {
+    margin-bottom: 3.5rem;
+}
+
+#eventsSchedule {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+
+#programEvent {
+    margin: 2rem 0rem;
+}
+
+#updsideDownBtn {
+    display: inline-block;
+    transform: rotate(180deg);
+    color: white;
+    background-color: #e2792d;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px 10px;
+
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    
+    #sponsorRow2 {
+        margin-top: 0px;
+    }
+    
+    #dns, #maplewave {
+        margin-right: 0;
+    }
+
+    #melissa, #verb {
+        margin-left: 0;
+    }
+}
+
+
+

@@ -84,4 +84,16 @@ function custom_theme_enqueue_styles() {
 add_action( 'wp_enqueue_scripts', 'custom_theme_enqueue_styles' );
 
 
+
+function itjobfair_enqueue_scripts() {
+
+	//enqueue jQuery (if not already enqueued by Bootstrap)
+	wp_enqueue_script('jquery');
+	
+    //enqueue custom JavaScript
+    wp_enqueue_script('custom-script', get_template_directory_uri() . '/assets/js/custom-script.js', array('jquery'), '1.0.0', true);
+}
+add_action('wp_enqueue_scripts', 'itjobfair_enqueue_scripts');
+
+
 ?>
