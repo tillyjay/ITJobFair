@@ -1,5 +1,5 @@
 jQuery(document).ready(function() {
     jQuery('#updsideDownBtn').click(function() {
-        jQuery('#myTable').toggleClass('d-none');
+        jQuery('#programEventAgenda').toggleClass('d-none');
     });
 });

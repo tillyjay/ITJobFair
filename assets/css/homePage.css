@@ -1,0 +1,184 @@
+/* Home Page */
+/* intro */
+#orangeLine1  {
+    background-color: #e2792d;
+    color: #e2792d;
+    height: 4px;
+    width: 60px;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+#para1 {
+    margin-top: 2rem;
+}
+
+/* map */
+
+#location, #sponsors {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+/* sponsors */
+#sponsorsRow1, #sponsorsRow2  {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+#dns, #melissa {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid #e2792d;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 5px 12px -3px rgba(0,0,0,0.98);
+}
+
+#dns {
+    margin-right: .5rem;
+}
+
+#melissa {
+    margin-left: .5rem;
+}
+
+#maplewave, #verb {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid #e2792d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 5px 12px -3px rgba(0,0,0,0.98);
+}
+
+#maplewave {
+    margin-right: .5rem;
+}
+
+#verb {
+    margin-left: .5rem;
+}
+
+/* schedule */
+h4#participating {
+    margin-top: 3.5rem;
+}
+
+h4#totalStudents {
+    margin: 2rem 0rem;
+
+}
+
+#studentsPara {
+    margin-bottom: 3.5rem;
+}
+
+#eventsSchedule {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+#programEvent {
+    margin: 2rem 0rem;
+}
+
+#updsideDownBtn {
+    display: inline-block;
+    transform: rotate(180deg);
+    color: white;
+    background-color: #e2792d;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px 10px;
+
+}
+
+#programEventAgenda,
+#programEventAgenda th,
+#programEventAgenda td {
+    color: #454d55;
+    font-size: 1.2rem;
+}
+
+/* participating organizations */
+#partcipatingOrgs {
+    margin-bottom: 6rem;
+}
+
+#partciOrgsTitle {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+#particiOrgsTable, 
+#particiOrgsTable th,
+#particiOrgsTable td {
+    color: #454d55;
+    width: 100%;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    font-size: 0.9rem;
+
+}
+
+#particiOrgsTable {
+    border-collapse: collapse;
+}
+
+#particiOrgsTable th {
+    border-bottom: 2px solid #dee2e6; 
+    width: 100%;
+}
+
+#particiOrgsTable td {
+    border-bottom: 1px solid #dee2e6; 
+    width: 100%;
+}
+
+#particiOrgsTable td#finalRow {
+    border-bottom: 1px solid white; 
+}
+
+
+
+
+
+
+/* media queries */
+@media screen and (max-width: 900px) {
+    
+    #sponsorRow2 {
+        margin-top: 0px;
+    }
+    
+    #dns, #maplewave {
+        margin-right: 0;
+    }
+
+    #melissa, #verb {
+        margin-left: 0;
+    }
+}
+
+
+
