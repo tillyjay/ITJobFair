@@ -1,0 +1,97 @@
+/* Students Page */
+
+/* intro */
+#whoAttendTitle {
+    font-weight: 700;
+    color: #454d55;
+}
+
+#introBtns {
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+#registerBtn2 {
+    margin-left: 7rem;
+}
+
+
+/* lists */
+#bulletLists {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+    margin-right: 9rem;
+    font-size:1.1rem;
+    margin-bottom: 5rem;
+}
+
+
+/* how to prepare */
+#howToPrepareDiv {
+   margin-top: 3rem; 
+   margin-bottom: 7rem;
+}
+
+#howToPrepareDiv a, #bulletList2 a, #finalPara a {
+    color: #4f98e6;
+    text-decoration: none;
+}
+  
+  #howToPrepareDiv a:hover, #bulletList2 a:hover, #finalPara a:hover { 
+    color: #1d68a7;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.orangeTitles {
+    color: #e2792d;
+    font-size: 1.4rem;
+}
+
+.howTo {
+    margin-bottom: 3rem;
+}
+
+.tip-text {
+    color: #e2792d;
+
+}
+
+/* Student Guidelines */
+#bulletList2 {
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+}
+
+#bulletList2 li {
+    margin-bottom: .6rem;
+    font-size: 1.1rem;
+    color: #454d55;
+}
+
+/* FAQ students */
+#FAQstudents {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.orangeTitles2 {
+    font-size: 1.4rem;
+    color:#e2792d;
+}
+
+.FAQ {
+    margin-bottom: 3rem;
+}
+
+.FAQ li {
+    font-size: 1.1rem;
+    margin-bottom: .4rem;
+    color: #454d55;
+}
+
+#finalPara {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}

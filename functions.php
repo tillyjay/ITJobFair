@@ -112,13 +112,13 @@ function itjobfair_enqueue_industrypage_styles() {
 add_action('wp_enqueue_scripts', 'itjobfair_enqueue_industrypage_styles');
 
 //student page styles
-function itjobfair_enqueue_industrypage_styles() {
+
+function itjobfair_enqueue_studentpage_styles() {
     if (is_page('students')) {
         wp_enqueue_style('studentPage', get_template_directory_uri() . '/assets/css/studentPage.css', array(), '1.0.0', 'all');
     }
 }
 add_action('wp_enqueue_scripts', 'itjobfair_enqueue_studentpage_styles');
-
 
 
 

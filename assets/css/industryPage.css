@@ -1,37 +1,5 @@
 /* Industry Page */
 
-/* buttons */
-button.registerBtn {
-    color: #933708;
-    border: 1px solid #e2792d;
-    background-color: #efedec;
-    font-size: .9rem;
-    padding: 0px 15px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-button.registerBtn:hover {
-    color: #ffffff;
-    background-color: #e2792d;
-    border: 1px solid #e2792d;
-}
-
-img#chevron {
-    translate: 5px 3px;
-    width: 20px;
-    height: 20px;
-}
-
-img#chevron2 {
-    translate: 5px 3px;
-    width: 20px;
-    height: 20px;
-}
-
-
 /* titles */
 #advantageTitle {
     margin-top: 5rem;
