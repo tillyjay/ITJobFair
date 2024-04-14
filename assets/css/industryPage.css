@@ -1,3 +1,86 @@
-/* Home Page */
-/* intro */
+/* Industry Page */
+
+/* buttons */
+button.registerBtn {
+    color: #933708;
+    border: 1px solid #e2792d;
+    background-color: #efedec;
+    font-size: .9rem;
+    padding: 0px 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.registerBtn:hover {
+    color: #ffffff;
+    background-color: #e2792d;
+    border: 1px solid #e2792d;
+}
+
+img#chevron {
+    translate: 5px 3px;
+    width: 20px;
+    height: 20px;
+}
+
+img#chevron2 {
+    translate: 5px 3px;
+    width: 20px;
+    height: 20px;
+}
+
+
+/* titles */
+#advantageTitle {
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+#programListTitle {
+    margin-top: 7rem;
+}
+
+
+/* lists */
+#programList {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    margin-bottom: 5rem;
+}
+
+#programList li {
+    margin-bottom: 1.5rem;
+}
+
+
+/* FAQ */
+#FAQ {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+#FAQ .questions {
+    margin-bottom: 3rem;
+}
+
+#FAQ p {
+    font-size: 1.2rem;
+}
+
+#finalP {
+    margin-bottom: 6rem;
+}
+
+#finalP a {
+    color: #4f98e6;
+}
+
+#finalP a:hover {
+    color: #1d68a7;
+    text-decoration: underline;
+    cursor: pointer;
+}
 

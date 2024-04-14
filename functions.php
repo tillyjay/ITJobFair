@@ -37,7 +37,10 @@ if ( ! function_exists( 'itjobfair_setup' ) ) :
 		/**
 		 * Enable support for post thumbnails and featured images.
 		 */
-		add_theme_support( 'post-thumbnails' );
+		add_theme_support('post-thumbnails', array(
+			'page'
+		));
+		
 
 		/**
 		 * Add support for two custom navigation menus.
@@ -73,6 +76,12 @@ _theme_styles', get_stylesheet_uri());
 }
 add_action( 'wp_enqueue_scripts', 'itjobfair_enqueue_styles' );
 
+//font awesome
+function enqueue_font_awesome() {
+    wp_enqueue_style('font-awesome', 'https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+}
+add_action('wp_enqueue_scripts', 'enqueue_font_awesome');
+
 
 //register and enqueue custom stylesheets
 function custom_theme_enqueue_styles() {
@@ -96,14 +105,11 @@ add_action('wp_enqueue_scripts', 'itjobfair_enqueue_homepage_styles');
 
 //industry page styles
 function itjobfair_enqueue_industrypage_styles() {
-    //check if is industry page
     if (is_page('industry')) {
-        //enqueue homePage.css stylesheet
         wp_enqueue_style('industryPage', get_template_directory_uri() . '/assets/css/industryPage.css', array(), '1.0.0', 'all');
     }
 }
 add_action('wp_enqueue_scripts', 'itjobfair_enqueue_industrypage_styles');
-
 
 
 //enqueue custom JavaScript

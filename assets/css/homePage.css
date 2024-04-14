@@ -1,14 +1,5 @@
 /* Home Page */
 /* intro */
-#orangeLine1  {
-    background-color: #e2792d;
-    color: #e2792d;
-    height: 4px;
-    width: 60px;
-    border-radius: 3px;
-    margin-top: 30px;
-}
-
 #para1 {
     margin-top: 2rem;
 }
@@ -158,9 +149,6 @@ h4#totalStudents {
 #particiOrgsTable td#finalRow {
     border-bottom: 1px solid white; 
 }
-
-
-
 
 
 
