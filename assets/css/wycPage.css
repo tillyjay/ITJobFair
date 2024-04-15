@@ -1,0 +1,68 @@
+/* WYC? Styles */
+
+/* intro */
+#introPara {
+    margin-bottom: 5rem;
+}
+
+h3 {
+    font-weight: 700;
+    color: #454d55;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+
+/* list styles */
+#subList  {
+    list-style-position: outside;
+}
+
+li {
+    margin-left: .7rem;
+    font-size: 1.2rem;
+    color:#454d55;
+    margin-bottom: 1.3rem;
+    list-style-position: outside;
+    line-height: 2.2rem;
+}
+
+div#teamsInfo {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+div#subReqs {
+    margin-bottom: 5rem;
+}
+
+div#subReqs span.orangeText {
+    color: #e2792d;
+}
+
+
+span.format {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    line-height: 3rem;;
+}
+
+div#addInfo {
+    margin-bottom: 9rem;
+}
+
+
+div#subReqs a, div#addInfo a {
+    color: #4f98e6;
+    text-decoration: none;
+}
+
+div#subReqs a:hover, div#addInfo a:hover {
+    color: #1d68a7;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
