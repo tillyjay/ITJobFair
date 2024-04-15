@@ -114,8 +114,9 @@ header .nav-link {
   color: black;
 }
 
-a.nav-link:hover {
+header a.nav-link:hover {
     color: #eb6200;
+    text-decoration: none;
 }
 
 header {
@@ -130,6 +131,7 @@ footer {
 
 footer .row {
   display: flex;
+  flex-direction: row wrap;
   justify-content: space-between;
   align-items: center;
   font-size: 0.9rem;
@@ -145,4 +147,29 @@ footer img {
   width: 60px;
   height: auto;
   margin-left: 40px;
+}
+
+footer .secondary a.nav-link:hover {
+  color: #70757a;
+  text-decoration: none;
+}
+
+
+/* media query */
+@media only screen and (max-width: 800px) {
+  .secondary-menu .row {
+    flex-direction: column;
+  }
+
+  footer .secondary {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .secondary-menu .col-md-6 {
+    width: 100%;
+    
+  }
+  
 }

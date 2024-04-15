@@ -135,6 +135,14 @@ function itjobfair_enqueue_contactpage_styles() {
 }
 add_action('wp_enqueue_scripts', 'itjobfair_enqueue_contactpage_styles');
 
+//privacy page styles
+function itjobfair_enqueue_privacypage_styles() {
+    if (is_page('privacy')) {
+        wp_enqueue_style('privacyPage', get_template_directory_uri() . '/assets/css/privacyPage.css', array(), '1.0.0', 'all');
+    }
+}
+add_action('wp_enqueue_scripts', 'itjobfair_enqueue_privacypage_styles');
+
 
 
 //enqueue custom JavaScript
