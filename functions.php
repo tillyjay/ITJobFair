@@ -143,6 +143,16 @@ function itjobfair_enqueue_privacypage_styles() {
 }
 add_action('wp_enqueue_scripts', 'itjobfair_enqueue_privacypage_styles');
 
+//terms and conditions page styles
+function itjobfair_enqueue_tcpage_styles() {
+    if (is_page('terms')) {
+        wp_enqueue_style('termsCPage', get_template_directory_uri() . '/assets/css/termsCPage.css', array(), '1.0.0', 'all');
+    }
+}
+add_action('wp_enqueue_scripts', 'itjobfair_enqueue_tcpage_styles');
+
+
+
 
 
 //enqueue custom JavaScript

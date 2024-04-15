@@ -1,0 +1,15 @@
+/* Terms and Conditions Styles */
+
+h1#tcTitle {
+    margin-top: 7rem;
+}
+
+div#termsC {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+
+}
+
+div.tC {
+    margin-top: 3rem;
+}
