@@ -127,6 +127,13 @@ function itjobfair_enqueue_wycpage_styles() {
 }
 add_action('wp_enqueue_scripts', 'itjobfair_enqueue_wycpage_styles');
 
+//contact page styles
+function itjobfair_enqueue_contactpage_styles() {
+    if (is_page('contact')) {
+        wp_enqueue_style('contactPage', get_template_directory_uri() . '/assets/css/contactPage.css', array(), '1.0.0', 'all');
+    }
+}
+add_action('wp_enqueue_scripts', 'itjobfair_enqueue_contactpage_styles');
 
 
 
