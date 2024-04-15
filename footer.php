@@ -11,13 +11,19 @@
                 </div>
             </div>
             <div class="col-md-6" id="leftCol">
-                <div class="secondary">
+            <div class="secondary">
                     <?php
                         $menu_items = wp_get_nav_menu_items('Secondary Menu');
                         $count = count($menu_items);
                         $i = 1;
                         foreach ($menu_items as $menu_item) {
-                            echo '<a class="nav-link mx-1" href="' . $menu_item->url . '">' . $menu_item->title . '</a>';
+                            if ($i == $count) {
+                                //if last menu item change href to email link
+                                echo '<a class="nav-link mx-1" href="mailto:itjobfair@nscc.ca?Subject=IT%20Job%20Fair%20Bugs">' . $menu_item->title . '</a>';
+                            } else {
+                                //for all other menu items keep original href
+                                echo '<a class="nav-link mx-1" href="' . $menu_item->url . '">' . $menu_item->title . '</a>';
+                            }
                             if ($i < $count) {
                                 echo ' · ';
                             }
@@ -25,6 +31,7 @@
                         }
                     ?>
                 </div>
+
                 <div id="upBtn">
                     <a href="#top" id="upLink">
                         <img id="chevronUp" src="<?php echo get_template_directory_uri(); ?>/assets/images/chevronUp.png" alt="Up Button">
