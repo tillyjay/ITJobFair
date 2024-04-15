@@ -10,7 +10,7 @@
                     &copy; 2019-2024 - Blackbird Project
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" id="leftCol">
                 <div class="secondary">
                     <?php
                         $menu_items = wp_get_nav_menu_items('Secondary Menu');
@@ -24,6 +24,11 @@
                             $i++;
                         }
                     ?>
+                </div>
+                <div id="upBtn">
+                    <a href="#top" id="upLink">
+                        <img id="chevronUp" src="<?php echo get_template_directory_uri(); ?>/assets/images/chevronUp.png" alt="Up Button">
+                    </a>
                 </div>
             </div>
         </div>

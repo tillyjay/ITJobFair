@@ -154,8 +154,25 @@ footer .secondary a.nav-link:hover {
   text-decoration: none;
 }
 
+footer #leftCol {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 
-/* media query */
+footer #chevronUp {
+  background: rgba(52, 58, 64, 0.6);
+  padding: 25px;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+footer #chevronUp:hover {
+  background: #343a40;
+}
+
+
+/* media queries */
 @media only screen and (max-width: 800px) {
   .secondary-menu .row {
     flex-direction: column;
@@ -172,4 +189,11 @@ footer .secondary a.nav-link:hover {
     
   }
   
+}
+
+
+@media only screen and (max-width: 900px) {
+  #upBtn {
+    display: none;
+  }
 }
