@@ -93,16 +93,17 @@ h4#totalStudents {
     margin: 2rem 0rem;
 }
 
-#updsideDownBtn {
-    display: inline-block;
-    transform: rotate(180deg);
+button#updsideDownBtn {
     color: white;
     background-color: #e2792d;
     border: 1px solid black;
     border-radius: 3px;
-    padding: 5px 10px;
-
+    padding: 5px;
+    height: 40px;
+    width:40px;
 }
+
+
 
 #programEventAgenda,
 #programEventAgenda th,
