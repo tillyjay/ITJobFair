@@ -93,7 +93,7 @@ h4#totalStudents {
     margin: 2rem 0rem;
 }
 
-button#updsideDownBtn {
+button#updsideDownBtn, button#rightsideUpBtn {
     color: white;
     background-color: #e2792d;
     border: 1px solid black;
@@ -103,7 +103,9 @@ button#updsideDownBtn {
     width:40px;
 }
 
-
+button#rightsideUpBtn img {
+    transform: rotate(180deg);
+}
 
 #programEventAgenda,
 #programEventAgenda th,
