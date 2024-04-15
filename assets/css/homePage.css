@@ -27,6 +27,25 @@
     flex-wrap: wrap;
 }
 
+
+.sponsorTags {
+    position: relative;
+}
+
+#networkName {
+    position: absolute;
+    z-index: 2;
+    top: 11px;
+    left: 13%;
+}
+
+#wellnessName {
+    position: absolute;
+    z-index: 2;
+    top: 11px;
+    left: 18%;
+}
+
 #dns, #melissa {
     width: 300px;
     height: 200px;
