@@ -4,7 +4,7 @@
 #marcInfo {
     display: flex;
     flex-direction: row wrap;
-    border:2x solid rgb(209, 209, 209);
+    border:2x solid rgb(186, 184, 184);
     padding: 0;
     margin-top: 4rem;
     border-radius: 3px;
@@ -12,6 +12,7 @@
   }
 
 #marcInfo:hover {
+    border:2x solid rgb(186, 184, 184);
     box-shadow: 8px 16px 21px -4px rgb(122, 121, 122);
 }
   
@@ -45,6 +46,9 @@ figure {
 #emailBox {
     display: flex;
     align-items: center;
+    margin-top: -1rem;
+    margin-bottom: 0rem;
+    padding: 0;
 }
 
 #emailIcon {
@@ -55,11 +59,11 @@ figure {
 
 #marcEmail {
     font-size: 1.1rem;
-    margin-bottom: 5px;
+    padding-top: 1.5rem;
 }
 
 #marcLastPara {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 /* emails */
@@ -74,6 +78,54 @@ a:hover {
     cursor: pointer;
 }
 
+#emailContacts {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+div.contactBox {
+    margin-top: 1.5rem;
+    display: flex; 
+    flex-direction: column;
+}
+
+div.iconTitle {
+    display: flex;
+    margin-bottom: -1rem;
+}
+
+img.emailIcons {
+    height: 22px;
+    width: auto;
+    margin-right: .8rem;
+}
+
+/* civic address */
+#addressInfo {
+    margin-bottom: 3rem;
+}
+
+#civicAddress {
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+} 
+
+#mapIcon {
+    height: 25px;
+    width: auto;
+    margin-right: .8rem;
+}
+
+#civicAdd {
+    font-size: 1.1rem;
+    padding-top: 1rem;
+}
+
+/* map */
+#map {
+    margin-bottom: 6rem;
+}
 
 
 
